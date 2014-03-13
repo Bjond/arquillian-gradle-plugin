@@ -972,8 +972,11 @@
     {
         "artifact_id":"jboss-as-arquillian-container-managed",
         "group_id":"org.jboss.as",
+        "version":"7.1.1.Final",
         "name":"Arquillian Container JBoss AS Managed 7.x",
         "containerType":"MANAGED",
+        "containerVersion":"7.1.1",
+        "containerName":"jboss7_managed",
         "configurations":[
             {
                 "type":"java.lang.String",
@@ -1041,8 +1044,11 @@
     {
         "artifact_id":"jboss-as-arquillian-container-remote",
         "group_id":"org.jboss.as",
+        "version":"7.1.1.Final",
         "name":"Arquillian Container JBoss AS Remote 7.x",
         "containerType":"REMOTE",
+        "containerVersion":"7.1.1",
+        "containerName":"jboss7_remote",
         "configurations":[
             {
                 "type":"java.lang.String",
@@ -1226,8 +1232,11 @@
     {
         "group_id":"org.jboss.arquillian.container",
         "artifact_id":"arquillian-openshift-express",
+        "version":"1.0.0.Beta1",
         "name":"Arquillian Container Openshift",
         "containerType":"REMOTE",
+        "containerName":"openshift",
+        "containerVersion":"0.1",
         "configurations":[
             {
                 "type":"java.lang.String",
