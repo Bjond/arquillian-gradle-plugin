@@ -977,6 +977,43 @@
         "containerType":"MANAGED",
         "containerVersion":"7.1.1",
         "containerName":"jboss7_managed",
+        "dependencies":[
+            {
+                "group_id":"junit",
+                "artifact_id":"junit",
+                "version":"4.11"
+            },
+            {
+                "group_id":"org.jboss.weld",
+                "artifact_id":"weld-core",
+                "version":"2.1.2.Final"
+            },
+            {
+                "group_id":"org.jboss.arquillian",
+                "artifact_id":"arquillian-bom",
+                "version":"1.1.2.Final"
+            },
+            {
+                "group_id":"org.jboss.weld.arquillian.container",
+                "artifact_id":"arquillian-weld-ee-embedded-1.1",
+                "version":"1.1.2.Final"
+            },
+            {
+                "group_id":"org.jboss.arquillian.junit",
+                "artifact_id":"arquillian-junit-container",
+                "version":"1.1.2.Final"
+            },
+            {
+                "group_id":"org.apache.xalan",
+                "artifact_id":"serializer",
+                "version":"2.7.1-1.jbossorg"
+            },
+            {
+                "group_id":"org.jboss.shrinkwrap.resolver",
+                "artifact_id":"shrinkwrap-resolver-depchain",
+                "version":"2.0.2"
+            }
+        ],
         "configurations":[
             {
                 "type":"java.lang.String",
